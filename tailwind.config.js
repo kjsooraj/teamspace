@@ -9,5 +9,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
+  plugins: [require('prettier-plugin-tailwindcss')],
 };
